@@ -16,12 +16,10 @@
     "react-skycons": "^0.7.0",
     "skycons": "^1.0.0"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+ "scripts": {
+  "start": "react-scripts --openssl-legacy-provider start"
+}
+,
   "eslintConfig": {
     "extends": "react-app"
   },

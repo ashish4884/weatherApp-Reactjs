@@ -102,12 +102,7 @@ function Forcast(props) {
                   {Math.round(weather.visibility)} mi
                 </span>
               </li>
-              <li>
-                Wind Speed{" "}
-                <span className="temp">
-                  {Math.round(weather.wind.speed)} Km/h
-                </span>
-              </li>
+            
             </div>
           ) : (
             <li>
