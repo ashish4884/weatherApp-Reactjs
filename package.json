@@ -14,10 +14,12 @@
     "react-live-clock": "^4.0.5",
     "react-scripts": "3.4.1",
     "react-skycons": "^0.7.0",
-    "skycons": "^1.0.0"
+    "skycons": "^1.0.0",
+    "webpack": "^4.42.0"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start"
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
