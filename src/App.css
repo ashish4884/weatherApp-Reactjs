@@ -307,9 +307,12 @@ div#txt {
 }
 
 .forecast {
+
+  
   width: 40%;
   float: left;
   height: 120%;
+  border-radius: 10px;
 }
 
 .forecast-icon {

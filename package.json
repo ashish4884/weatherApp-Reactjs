@@ -16,10 +16,9 @@
     "react-skycons": "^0.7.0",
     "skycons": "^1.0.0"
   },
- "scripts": {
-  "start": "react-scripts --openssl-legacy-provider start"
-}
-,
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start"
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -34,5 +33,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.0"
   }
 }
